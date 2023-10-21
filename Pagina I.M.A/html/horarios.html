@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap -->
+    <link rel="stylesheet" href="../css/cdn.jsdelivr.net_npm_bootstrap@5.2.3_dist_css_bootstrap.min.css">
+    <!--Estilos Css-->
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="shortcut icon" href="../imagenes/logo-removebg-preview.png" type="image/x-icon">
+    <title>I.M.A</title>
+
+  </head>
+<body>
+  <header>
+
+    <!--Arriba de Menu de navegacion-->
+      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <h1>UE. Instituto Metropolitano Adventista</h1>
+      </div>
+  
+      <!--Menu de Navegacion-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="../imagenes/logo-removebg-preview.png" height="120px" width="120px" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto mx-5" id="navbar">
+            <a class="nav-link color" href="./index.html">Inicio</a>
+            <a class="nav-link color" href="./horarios.html" id="enlace1">Horarios</a>
+            <a class="nav-link color" href="./himno.html">¿Quienes Somos?</a>
+            <a class="nav-link color" href="./Sesion.html" id="enlace4">Iniciar Sesion</a>
+
+          </div>
+        </div>
+        </div>
+      </nav>
+    </header>
+  <main>
+    <!--  carrousel  -->
+    <div id="carouselExampleControls" class="carousel slide m-2" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../imagenes/horarios/n1a.jpg" id="1" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../imagenes/horarios/n1b.jpg" id="2" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../imagenes/horarios/n2a.jpg" id="3" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../imagenes/horarios/n2b.jpg" id="4" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../imagenes/horarios/n3a.jpg" id="5" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../imagenes/horarios/n3b.jpg" id="6" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../imagenes/horarios/n4a.jpg" id="7" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../imagenes/horarios/n4b.jpg" id="8" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../imagenes/horarios/n5a.jpg" id="9" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../imagenes/horarios/n5b.jpg" id="10" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <!-- Carrousel -->
+    <div id="change-img" class="container col-md-4 bg-dark p-3">
+      <form class="row" >
+        <div class="mb-3 col-md-12">
+          <label for="position" class="text-light">Numero de imagen</label>
+          <input type="number" id="position" class="form-control" >
+        </div>
+        <div class="mb-3 col-md-12">
+          <label for="imagen" class="text-light">nombre de la imagen</label>
+          <input type="text" id="imagen" class="form-control">
+        </div>
+        <div>
+          <input type="button" id="btn" value="Guardar" class="form-control">
+        </div>
+      </form>
+    </div>
+
+  </main>
+
+<!--Footer-->
+
+<footer class="container-fluid">
+  <div class="row">
+
+    <p id="foo">U.E Instituto Metropolitano Adventista<br>
+     "Educando Mano, Mente y Corazón"<br>
+     Calle Principal Santa Teresa nº1-36. San Cristóbal. Edo Táchira.<br>2023(c).</p>
+  </div>
+</footer>
+
+<!--Bootstrap-->
+<script src="../JS/cdn.jsdelivr.net_npm_bootstrap@5.0.2_dist_js_bootstrap.bundle.min.js"></script>
+<script src="../JS/horarios.js"></script>
+</body>
+</html>

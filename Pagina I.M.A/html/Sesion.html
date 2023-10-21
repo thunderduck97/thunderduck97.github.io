@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/cdn.jsdelivr.net_npm_bootstrap@5.2.3_dist_css_bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="shortcut icon" href="../imagenes/logo-removebg-preview.png" type="image/x-icon">
+    
+    <title>IMA - Iniciar Sesion</title>
+</head>
+
+
+
+
+
+
+<body class=" d-flex justify-content-center align-items-center vh-100" style="background-color: rgb(255, 242, 242);"><!--(vh-100)para que ocupe el 100% de la ventana-->
+    <!--Arriba Barra de Navegacion-->
+    <nav>
+      <a class="position-absolute top-0 start-0 vh-100" href="./index.html"><img src="../imagenes/352473_return_icon.png" height="10%" width="100%" alt=""></a>
+    </nav>
+              <!--Formulario-->
+
+            <form action="" id="form">
+              <div class=" p-5 rounded-5" style="width: 25rem ; background-color: rgb(0, 204, 255); box-shadow: 4px 4px 8px 4px rgb(186, 186, 186); " >
+                
+                <div class="d-flex justify-content-center"><!--El logo-->
+                  <img src="../imagenes/logo-removebg-preview.png" width="120px" height="120px" alt="">
+                </div>
+
+                <div class="text-center fs-1 fw-bold">Iniciar Sesion</div><!--(fw-bold) para que la letra se vea como rellenita-->
+                <div class="input-group mt-4"><!--(input-group) para que la imagen se alinee con el input  mt-4=margin top 4-->
+                  <div class="input-group-text bg-info"><!--para que el que se alineen el texto y la imagen-->
+                    <img src="../imagenes/5340287_man_people_person_user_users_icon.png" alt="" style="height: 2rem;"> 
+                  </div>
+                  <input class="form-control" type="text" name="email" id="email" placeholder="email"><!--form control para que se vea mejor el input -->
+                </div>
+
+                <div class="input-group mt-1">
+                  <div class="input-group-text bg-info">
+                    <img src="../imagenes/candado.png" alt="" style="height: 2rem;">
+                  </div>
+                  <input class="form-control" type="password" name="password" id="password" placeholder="password">
+                </div>
+
+                <div class="d-flex justify-content-around mt-1">
+                  <div class="d-flex align-items-center gap-1">
+                    <input class="form-check-input" type="checkbox" name="" id="">
+                    <div class="pt-1" style="font-size: 0.9rem;">Remember</div>
+                  </div>
+                </div>
+              <div>
+                <button id="login">Login</button>
+              </div>
+              </div>
+            </form>
+
+<!--Bootstrap JS-->
+
+
+  <script src="../JS/cdn.jsdelivr.net_npm_bootstrap@5.0.2_dist_js_bootstrap.bundle.min.js"></script>
+
+  <!--JS-->
+  <script src="../JS/prog.js"></script>
+
+</body>
+</html>
